@@ -1,0 +1,48 @@
+[
+    {
+        "sidebarId": 1,
+        "url": "/coding/JavaScript",
+        "childrens": [
+            {
+                "codingPostId": "1",
+                "codingPostTitle": "자바스크립트 문서1",
+                "codingPostContent": "내용입니다1",
+                "codingPostImages": "http://localhost:8080/uploads/dog.jpeg"
+            },
+            {
+                "codingPostId": "2",
+                "codingPostTitle": "자바스크립트 문서2",
+                "codingPostContent": "내용입니다2",
+                "codingPostImages": "http://localhost:8080/uploads/cat.jpeg"
+            },
+            {
+                "codingPostId": "3",
+                "codingPostTitle": "자바스크립트 문서3",
+                "codingPostContent": "내용입니다3"
+            }
+        ]
+    },
+    {
+        "sidebarId": 2,
+        "url": "/coding/JavaScript/React",
+        "childrens": [
+            {
+                "codingPostId": "1",
+                "codingPostTitle": "리액트 문서1",
+                "codingPostContent": "내용입니다1",
+                "codingPostImages": "http://localhost:8080/uploads/dog.jpeg"
+            },
+            {
+                "codingPostId": "2",
+                "codingPostTitle": "리액트 문서2",
+                "codingPostContent": "내용입니다2",
+                "codingPostImages": "http://localhost:8080/uploads/cat.jpeg"
+            },
+            {
+                "codingPostId": "3",
+                "codingPostTitle": "리액트 문서3",
+                "codingPostContent": "내용입니다3"
+            }
+        ]
+    }
+]
