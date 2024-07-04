@@ -245,7 +245,7 @@ $ npm start or yarn start
                        <th><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/></th>
                        <th><img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"/></th>
                        <th><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></th>
-                       <th><img src="https://img.shields.io/badge/OpenAI-00AAFF?style=flat-square&logo=OpenAI&logoColor=white"/></th>
+                       <th><img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/></th>
                    </tr>
                </thead>
            </table>
@@ -268,13 +268,13 @@ $ npm start or yarn start
   
   **메인페이지 디자인 강조**
   
-  -	배경 동영상 사용: src/assets 폴더를 만들어 최적화된 동영상을 저장하고, 이를 <video> 태그를 활용하여 메인 페이지의 배경으로 사용했다.
+  -	배경 동영상 사용: src/assets 폴더를 만들어 최적화된 동영상을 저장하고, 이를 `<video>` 태그를 활용하여 메인 페이지의 배경으로 사용했다.
 
   **SCSS 적극 활용**
 
   -	동적 CSS 컴파일: SCSS의 @import 문법을 사용하여 동적으로 CSS를 컴파일했다.
-	-	반응형 디자인: 최대한의 반응형 디자인을 위해 vh와 vw 단위를 사용했다.
-	-	애니메이션 효과: 로그인/회원가입 페이지에서 동적 전환 애니메이션 효과를 구현했다.
+  -	반응형 디자인: 최대한의 반응형 디자인을 위해 vh와 vw 단위를 사용했다.
+  -	애니메이션 효과: 로그인/회원가입 페이지에서 동적 전환 애니메이션 효과를 구현했다.
 
   **로그인 검증 및 전역 상태 관리**
 
@@ -296,8 +296,8 @@ $ npm start or yarn start
   **글 작성 중 자유로운 이미지 삽입 기능**
 
   - 이미지 업로드: 글 작성 중 언제든 이미지를 삽입할 수 있도록, multipart/form-data 형식을 사용한 이미지 업로드 API를 구현했다.
-	-	이미지 삽입: 서버에 업로드된 이미지의 URL을 반환 받아 글에 동적으로 이미지를 삽입할 수 있도록 했다.
-	-	향후 확장성: 향후 AWS S3와의 연동을 고려하여 API를 설계했다. 이를 통해 확장성과 유연성을 확보하고, 이미지 저장소를 쉽게 확장할 수 있도록 했다.
+  - 이미지 삽입: 서버에 업로드된 이미지의 URL을 반환 받아 글에 동적으로 이미지를 삽입할 수 있도록 했다.
+  - 향후 확장성: 향후 AWS S3와의 연동을 고려하여 API를 설계했다. 이를 통해 확장성과 유연성을 확보하고, 이미지 저장소를 쉽게 확장할 수 있도록 했다.
 
   **실시간 채팅 기능**
 
@@ -351,9 +351,23 @@ $ npm start or yarn start
 
 ### PC & Mobile Page
 
+**MainPage1**|**LoginPage**|**LoginPage2**|**MainPage2**
+:-----:|:-----:|:-----:|:-----:
+<img   alt="메인 로그인 전" src="https://github.com/kscold/kscold-blog/assets/66587554/5325bda8-ee43-4184-90b3-8750a8ba6047" width="100%">|<img src="https://github.com/kscold/kscold-blog/assets/66587554/e30f2a4f-6dd3-415d-8bce-3a7700892c5e" width="100%">|<img alt="로그인 성공" src="https://github.com/kscold/kscold-blog/assets/66587554/20ed108c-079e-4f88-8e4b-56183587435f" width="100%">|<img alt="메인 로그인 후(관리자)" src="https://github.com/kscold/kscold-blog/assets/66587554/64ceb468-6383-417f-9af9-e0df89b829be" width="100%">
+메인 로그인 (전)|로그인 화면 애니매이션|로그인 성공 화면|메인 화면(관리자)
+
+**CodingPage1**|**CodingPage2**|**CodingPage3**|**CodingPage4**
+:-----:|:-----:|:-----:|:-----:
+<img alt="사이드바 생성 관리자" src="https://github.com/kscold/kscold-blog/assets/66587554/af7b39eb-3001-45e1-9b9d-d111661947c3" width="100%">|<img alt="사이드 바 여러개 생성" src="https://github.com/kscold/kscold-blog/assets/66587554/d2196814-3eb9-4ce2-896e-07d4d9379c8f" width="100%">|<img alt="관리자 글 생성" src="https://github.com/kscold/kscold-blog/assets/66587554/e47ed3bf-9654-42ea-a7b9-b44489a93425" width="100%">|<img alt="관리자 글 생성 후" src="https://github.com/kscold/kscold-blog/assets/66587554/f0716e8b-aa5e-4159-9171-9b9ece81d5af" width="100%">
+코딩 페이지 사이드바 생성(관리자)|관리자 자식 사이드바 생성|관리자 글 생성|관리자 글 생성 후
+
+**CodingPage5**|**InfoPage**|**Performance(Before)**|**Performance(After)**
+:-----:|:-----:|:-----:|:-----:
+<img alt="글 확인" src="https://github.com/kscold/kscold-blog/assets/66587554/bf5deb2a-6996-49d0-b32a-cbcdf43e72cf" width="100%">|<img alt="정보 페이지" src="https://github.com/kscold/kscold-blog/assets/66587554/901ec3e1-bbd7-48c0-8490-215a5c1005ca" width="100%">|<img alt="관리자 메세지 리스트" src="https://github.com/kscold/kscold-blog/assets/66587554/6ea3a18a-66ed-4ed5-874c-604a50fc83b0" width="100%">|<img alt="관리자 메세지 내역" src="https://github.com/kscold/kscold-blog/assets/66587554/e6d0c665-341c-475e-a885-c38f3c0f0e28" width="100%">
+글 작성 확인|사용자 정보 페이지|관리자 메세지 리스트 화면|관리자-사용자 메세지 화면
 
 
-<br><br>
+<br>
 
 - **Phone**
 - **web** (권장)
